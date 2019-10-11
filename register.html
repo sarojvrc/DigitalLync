@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <meta charset = "utf-8" />
+        <link rel = "icon" href = "images/logo.jpg" type = "image/x-icon"> 
+        <style>
+            a{
+                text-decoration: none;
+            }
+            h1{
+                text-align: center;
+                background-color: wheat;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <center>
+            <form>
+                <h4>Full Name <input type="text" placeholder="Enter Your Name" id="name"></h4>
+                <h4>Mobile Number <input type="mobile" placeholder="Enter Your Mobile" id="mob"></h4>
+                <h4>Password <input type="password" placeholder="Enter Password" id="pass"></h4>
+                <h4>Retype Password <input type="password" placeholder="Enter Password Again" id="pass"></h4>
+                <h4>Course Intrested <select>
+                    <option value="select course">Select Course</option>
+                    <option value="java">Java</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="python">Python</option>
+                    <option value="full stack">Full Stack</option>
+                </select></h4>
+                <h4>Gender <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female </h4>
+                <input type="checkbox" name="agree" value="agree"> <a href="terms.html">Aggred to Terms and Condition</a>
+                <br><br>
+                <input type="submit" value="Sign Up"> &nbsp; <input type="submit" value="Reset">   
+            </form>
+            
+            <h3>Have an account  &nbsp; <a href="homepage.html">Login Here</a></h3>
+        </center>
+        
+    </body>
+</html>
